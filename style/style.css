@@ -61,7 +61,7 @@ nav.menu-navegacao {
 
 .container {
     position: relative;
-    height: calc(100vh - 94px);
+    height: calc(100vh - 169px);
 }
 
 .imagem-de-fundo {
@@ -70,7 +70,7 @@ nav.menu-navegacao {
     height: 100%;
     top: 0;
     left: 0;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 .conteudo {
@@ -122,4 +122,19 @@ nav.menu-navegacao {
 
 .foto-rosto {
     width: 400px;
+}
+
+.rodape{
+    height: 75px;
+    background-image: linear-gradient(var(--cor2), var(--cor3),var(--cor4), var(--cor2));
+    box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-rodape{
+    width: 60px;
+    border-radius: 50%;
+    
 }
