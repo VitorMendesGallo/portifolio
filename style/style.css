@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nag+Mundari:wght@400;700&display=swap');
+
+:root {
+    --fonte-titulo: 'Roboto Slab', serif;
+    --fonte-texto: 'Noto Sans Nag Mundari', sans-serif;
+    --cor1: #0D0D0D;
+    --cor2: #024959;
+    --cor3: #0388A6;
+    --cor4: #04ADBF;
+    --cor5: #8DE8F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav.menu-navegacao {
+    background-image: linear-gradient(var(--cor2), var(--cor3),var(--cor4), var(--cor2));
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.541);
+}
+
+.logo>img {
+    width: 70px;
+}
+
+.menu-navegacao>ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.menu-navegacao>ul>li {
+    display: inline-block;
+}
+
+.menu-navegacao>ul>li>a {
+    text-decoration: none;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.525);
+    color: white;
+    padding: 5px 10px;
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
+
+.menu-navegacao>ul>li>a:hover {
+    color: var(--cor1);
+    background-color: var(--cor5);
+    text-shadow: none;
+    box-shadow: -2px 2px 7px rgba(0, 0, 0, 0.415);
+}
+
+.container {
+    position: relative;
+    height: calc(100vh - 94px);
+}
+
+.imagem-de-fundo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+}
+
+.conteudo {
+    top: 50px;
+    position: relative;
+    display: flex;
+    z-index: 1;
+    width: 900px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.apresentacao>h1 {
+    font-family: var(--fonte-titulo);
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.525);
+}
+
+.apresentacao>p {
+    font-family: var(--fonte-texto);
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.525);
+    margin-bottom: 20px;
+}
+
+.botao-projetos {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+    color: white;
+    background-color: var(--cor2);
+    transition-duration: 0.3s;
+}
+
+.botao-projetos:hover {
+    cursor: pointer;
+    font-size: 1.5em;
+    background-color: var(--cor5);
+    color: var(--cor1);
+}
+
+.foto-rosto {
+    width: 400px;
+}
