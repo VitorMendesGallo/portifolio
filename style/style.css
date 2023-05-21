@@ -18,10 +18,11 @@
     box-sizing: border-box;
 }
 
+
 .background {
     position: relative;
-    width:100vw;
     height: 100vh;
+    width: 100vw;
 }
 
 .imagem-de-fundo {
@@ -92,11 +93,10 @@ main{
     margin: auto;
     justify-content: space-around;
     align-items: center;
-    gap: 60px;
 }
 
 .apresentacao{
-    width: 60%;
+    width: 50%;
 }
 
 .apresentacao>h1 {
@@ -140,7 +140,7 @@ main{
 
 footer{
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     width: 100%;
 }
 
@@ -161,7 +161,36 @@ footer{
 
 @media (max-width:930px){
 
+.conteudo{
+    flex-direction: column;
+}
 
+.apresentacao{
+    text-align: center;
+    width: 80%;
+    height: 40%;
+}
+
+.apresentacao h1{
+    font-size: 2em;
+}
+
+.apresentacao p {
+    font-size: 1em;
+}
+
+.botao-projetos {
+    font-size: 1.1em;
+}
+
+.botao-projetos:hover {
+    font-size: 1.3em;
+}
+
+.foto-rosto{
+    width: auto;
+    height: 50%;
+}
     
    
 }
