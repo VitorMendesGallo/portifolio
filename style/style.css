@@ -14,5 +14,26 @@
     --cor5:#10403B;
 }
 
+.cabecalho{
+    background-color: var(--cor2);
+}
 
+.fonte-decorativa{
+    font-family: var(--fonte-decorativa);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.apresentacao{
+    background-color:var(--cor4);
+}
+
+.titulo{
+    font-family: var(--fonte-titulo);
+    color: white;
+}
+
+.minha-foto{
+    width: 50%;
+}
 
