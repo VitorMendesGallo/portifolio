@@ -1,20 +1,18 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Nag+Mundari:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
 :root {
     --fonte-titulo: 'Roboto Slab', serif;
     --fonte-texto: 'Noto Sans Nag Mundari', sans-serif;
-    --cor1:;
-    --cor2:;
-    --cor3:;
-    --cor4:;
-    --cor5:;
+    --fonte-decorativa:'Dancing Script', cursive;
+    --cor1:#BFBFBF;
+    --cor2:#8AA6A3;
+    --cor3:#4C5958;
+    --cor4:#127369;
+    --cor5:#10403B;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
