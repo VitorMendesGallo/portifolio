@@ -37,12 +37,18 @@ body , html {
     color: white;
 }
 
+
 .paragrafo-apresentacao{
     font-size: 1.2rem;
     text-align: justify;
 }
 
-.minha-foto{
-   width: 50%;
+.caixa-imagem{
+    max-width: 300px;
+
 }
+
+
+
+
 
