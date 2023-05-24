@@ -14,6 +14,10 @@
     --cor5:#10403B;
 }
 
+body , html {
+    font-family: var(--fonte-texto);
+}
+
 .cabecalho{
     background-color: var(--cor2);
 }
@@ -33,7 +37,12 @@
     color: white;
 }
 
+.paragrafo-apresentacao{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
 .minha-foto{
-    width: 50%;
+   width: 50%;
 }
 
